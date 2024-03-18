@@ -1,0 +1,47 @@
+
+pivot
+
+
+
+fillna()
+
+
+
+drop_duplication()
+
+
+
+cumsum()
+
+cumprod()
+
+cummin()
+
+cummax()
+
+
+
+# import pickle
+
+with open(“alco.pickle”, “wb”) as oFile:
+
+  pickle.dump(alco, oFile)
+
+alco.ix['Hawaii'].cumsum().head()
+
+alco.ix['Hawaii'].diff().head()
+
+
+
+# alco_noidx = alco.reset_index()
+
+  sum_alco = alco_noidx.groupby("Year").sum() 
+
+  sum_alco.tail()
+
+
+
+cut()
+
+qcut()
+

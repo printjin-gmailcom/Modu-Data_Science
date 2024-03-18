@@ -1,0 +1,87 @@
+
+numpy 배열 : 리스트와 달리 같은 아이템만 갖음. 대상 데이터의 view이지 copy가 아님.
+
+- array() 함수 
+
+- ones() zeros() empty()
+
+
+
+eye(N, M=None, k=0, dtype=np.float)
+
+- 함수는 NXM차원의 단위행렬, (k) 대각선은 모두 1이고 나머지는 0, 양수일때 주대각선이 위로 대각선을 그림
+
+
+
+reshape()
+
+- .T : 해당 배열의 전치된 뷰
+
+- .swapaxes() 
+
+- .transpose() 
+
+
+
+유니버셜 함수
+
+- 사칙연산 : add(), multiply(), negative(), exp(), log(), sqrt()
+
+- 삼각함수 : sin(), cos(), hypot()
+
+- 비트 단위 : bitwise_and(), left_shift()
+
+- 관계형, 논리 : less(), logical_not(), equl()
+
+- maximum(), minimum()
+
+- isinf(), infinite(), floor(), isnan()
+
+
+
+np.greater()
+
+
+
+where(a, b, c)
+
+anu(), all()
+
+nonzero()
+
+
+
+mean()
+
+sum()
+
+std()
+
+min()
+
+max()
+
+
+
+unique()
+
+
+
+in1d(needle, haystack)
+
+- needle의 엘리먼트가 haystack 안에 존재하는 지 여부를 불 배열로 반환
+
+
+
+np.save( , sap)
+
+sap_copy = np.load("sap")
+
+
+
+loadtxt()
+
+savetxt()
+
+
+

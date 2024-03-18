@@ -1,0 +1,6 @@
+state2reg = {'Connecticut' : 'NORTHEAST', 'Maine' : 'NORTHEAST', 'Massachusetts' : 'NORTHEAST', 'New Hampshire' : 'NORTHEAST', 'Rhode Island' : 'NORTHEAST', 'Vermont' : 'NORTHEAST', 'New Jersey' : 'NORTHEAST', 'New York' : 'NORTHEAST','Pennsylvania': 'NORTHEAST', 'Illinois': 'MIDWEST', 'Indiana': 'MIDWEST', 'Michigan': 'MIDWEST', 'Ohio': 'MIDWEST', 'Wisconsin': 'MIDWEST', 'Iowa': 'MIDWEST', 'Kansas': 'MIDWEST',
+'Minnesota': 'MIDWEST', 'Missouri': 'MIDWEST', 'Nebraska': 'MIDWEST', 'North Dakota': 'MIDWEST', 'South Dakota': 'MIDWEST', 'Delaware': 'SOUTH',
+'District of Columbia': 'SOUTH', 'Florida': 'SOUTH', 'Georgia': 'SOUTH', 'Maryland': 'SOUTH', 'North Carolina': 'SOUTH', 'South Carolina': 'SOUTH',
+'Virginia': 'SOUTH', 'West Virginia': 'SOUTH', 'Alabama': 'SOUTH', 'Kentucky': 'SOUTH', 'Mississippi': 'SOUTH', 'Tennessee': 'SOUTH', 'Arkansas': 'SOUTH',
+'Louisiana': 'SOUTH', 'Oklahoma': 'SOUTH', 'Texas': 'SOUTH', 'Arizona': 'WEST', 'Colorado': 'WEST', 'Idaho': 'WEST', 'Montana': 'WEST', 'Nevada': 'WEST',
+'New Mexico': 'WEST', 'Utah': 'WEST', 'Wyoming': 'WEST', 'Alaska': 'WEST', 'California': 'WEST', 'Hawaii': 'WEST', 'Oregon': 'WEST', 'Washington': 'WEST'}
